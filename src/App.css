@@ -1,7 +1,15 @@
 .App {
   text-align: center;
+  
 }
-
+a{
+  text-align: center;
+  justify-content: center;
+  
+}
+p{
+  font-size: 23px;
+}
 body {
   font-family: 'nanumsquare';
 }
@@ -29,6 +37,7 @@ body {
   margin-top: 10px;
 }
 
+
 img.n{
   width: 30px;
   height: 30px;
@@ -44,30 +53,29 @@ img.n{
   color: white;
   padding: 20px;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 30px;
 }
 .list{
   margin-top: 30px;
-  text-align: left;
   padding-left: 20px;
   padding-right: 20px;
 }
 .mandu{
-  height: 300px;
-  width: 400px;
+  height: auto;
+  width: 500px;
 }
 .mandukuk{
-  height: 300px;
-  width: 400px;
+  height: auto;
+  width: 500px;
 }
 .mak{
-  height: 300px;
-  width: 300px;
+  height: auto;
+  width: 500px;
 }
 
 .chef{
-  height: 300px;
-  width: 400px;
+  height:auto;
+  width: 500px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -105,4 +113,55 @@ img.n{
   background: #eee;
   border-radius: 10px;
 
+}
+.one{
+  margin-bottom: 70px;
+  
+}
+.two{
+  margin-bottom: 70px;
+  
+}.three{
+  margin-bottom: 70px;
+  
+}.four{
+  margin-bottom: 70px;
+  
+}
+.pushbutton{
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #eee;
+  
+}
+.more{
+  font-size: 20px;
+  width: 80px;
+  height: 40px;
+  background-color: #eee;
+}
+.info{
+  width:auto;
+  height: auto;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  border-radius: 50px;
+  color: #282c34;
+  
+
+}
+.addr{
+  color: #282c34;
+  text-decoration-line: underline;
+
+}
+.Modal{
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  border-radius: 0px;
+}
+
+
+
+.button{
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
