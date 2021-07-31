@@ -91,10 +91,7 @@ let [입력값, 입력값변경]=useState('');
   </div> */}
 
 
-    <button className="more" onClick = { ()=> { button변경(!button) }}>더보기</button>
   
-    {/* <input onChange={ (e)=>{ 입력값변경 (e.target.value)} }/> */}
-
    {
      button === true
      ? <Button 글제목 ={글제목} 누른제목={누른제목} ></Button>
@@ -110,9 +107,9 @@ function Modal(){
   return(
   <>
     <div className = "Modal">
-    <h1>내가 뽑은 Best 경기광주 맛집 !  </h1>
-    <h2>2021.4.30 </h2>
-    <h3 className="info"> 좋아요를 눌러주세요 <br/>네이버 버튼을 누르시면 지도로 이동합니다</h3>
+    <h2>내가 뽑은 경기광주 맛집 </h2>
+    <h4>2021.4.30 </h4>
+    <h4 className="info"> 좋아요를 눌러주세요 <br/>네이버 버튼을 누르시면 지도로 이동합니다</h4>
     </div>
   </>
   )
